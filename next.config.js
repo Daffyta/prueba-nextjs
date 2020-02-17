@@ -1,4 +1,5 @@
 const withSass = require('@zeit/next-sass')
+const isProd = (process.env.NODE_ENV || 'production') === 'production'
 
 module.exports = withSass({
   cssModules: true,
@@ -46,3 +47,26 @@ module.exports = withSass({
         return config
       }
 });
+
+const webpack = require('webpack')
+
+const isProd = (process.env.NODE_ENV || 'production') === 'production'
+
+const assetPrefix = isProd ? '/prueba-nextjs/' : ''
+
+module.exports = {
+  exportPathMap: () => ({
+    '/': { page: '/' },
+    '/Tabs': { page: '/Tabs' },
+  }),
+  assetPrefix: assetPrefix,
+  webpack: config => {
+    config.plugins.push(
+      new webpack.DefinePlugin({
+        'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
+      }),
+    )
+
+    return config
+  },
+}

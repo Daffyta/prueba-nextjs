@@ -1357,6 +1357,7 @@ const Sidebar = props => {
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
     href: "/",
+    as: `${process.env.ASSET_PREFIX}/`,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -1370,6 +1371,7 @@ const Sidebar = props => {
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
     href: "/Tabs",
+    as: `${process.env.ASSET_PREFIX}/Tabs`,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18

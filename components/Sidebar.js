@@ -12,10 +12,10 @@ const Sidebar = (props) => {
       <hr />
       <Nav vertical>
         <NavItem>
-          <NavLink href="/">Dashboard</NavLink>
+          <NavLink href="/" as={`${process.env.ASSET_PREFIX}/`}>Dashboard</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="/Tabs">Tabs</NavLink>
+          <NavLink href="/Tabs" as={`${process.env.ASSET_PREFIX}/Tabs`}>Tabs</NavLink>
         </NavItem>
         <NavItem>
           <NavLink href="#">Another Link</NavLink>

@@ -1230,7 +1230,7 @@ var Navegation = function Navegation(props) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _assets_img_user_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/img/user.png */ "./assets/img/user.png");
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony import */ var _assets_img_user_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/img/user.png */ "./assets/img/user.png");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
@@ -1293,6 +1293,7 @@ var Sidebar = function Sidebar(props) {
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
     href: "/",
+    as: "".concat(process.env.ASSET_PREFIX, "/"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
@@ -1306,6 +1307,7 @@ var Sidebar = function Sidebar(props) {
     __self: this
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
     href: "/Tabs",
+    as: "".concat(process.env.ASSET_PREFIX, "/Tabs"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -1354,6 +1356,7 @@ var Sidebar = function Sidebar(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Sidebar);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
