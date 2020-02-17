@@ -1,0 +1,30 @@
+#menu-tabs{
+  .nav-tabs {
+    .nav-item {
+      width: 50%;
+      background-color: #175d8d;
+      color: #fff;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+        .active {
+          width: 100%;
+          background-color: #175d8d !important;
+          color: #46c9d7 !important;
+          height: 70px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-color: transparent !important;
+          border-bottom: 4px solid #46c9d7 !important;
+          font-weight: bold;
+        }
+    }
+  }
+  
+  .tab-content{
+    background-color: #fff;
+  }
+}

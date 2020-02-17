@@ -1,0 +1,20 @@
+//Breakpoints
+@import './breakpoints/_mixin-breakpoint.scss';
+@import './breakpoints/_breakpoints.scss';
+@import './breakpoints/_hidden-breakpoint.scss';
+
+// Format
+@import './format/_colors.scss';
+@import './format/_fonts.scss';
+@import './format/_tags.scss';
+
+// Components
+@import './components/sidebar.scss';
+@import './components/navegation.scss';
+@import './components/informativeCard.scss';
+@import './components/notificaciones.scss';
+@import './components/collapsPyme.scss';
+@import './components/grafica.scss';
+@import './components/tabs.scss';
+@import './components/formAndTabl.scss';
+@import 'index.scss';

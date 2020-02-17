@@ -1,0 +1,49 @@
+#notificaciones {
+  .card {
+    // min-height: 325px;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #f4f4f4;
+    
+    .card-header {
+      background-color: #fff;
+      
+      h5 {
+        margin-bottom: 0;
+        padding: 2%;
+        color: #175d8d;
+      }
+    }
+    
+    .card-body {
+      padding: 0 1.25rem;
+      max-height: 440px;
+      overflow-y: scroll;
+      
+      .card-title {
+        ul {
+          padding: 0;
+          
+          li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            border-bottom: 1px solid #dee2e6;
+            padding: 15px 12px;
+            
+            span {
+              a {
+                background-color: red;
+                color: white;
+                padding: 0px 6px 2px;
+                border-radius: 50%;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

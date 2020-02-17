@@ -1,0 +1,11 @@
+@import '/main.scss';
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: #ededed !important;
+  font-family: "PoppinsRegular" !important;
+  
+  li {
+    list-style: none;
+  }
+}

@@ -1,0 +1,42 @@
+form {
+  padding: 6%;
+  
+  .form-group {
+    input {
+      border-color: #45c9d7 !important;
+    }
+  }
+}
+
+table {
+  margin: 0 7% 10%;
+  border: 1px solid #c2c2c2;
+  font-size: 16px;
+  
+  thead {
+    tr {
+      background-color: #175d8d;
+      color: #fff;
+    }
+  }
+  
+  th {
+    border-top: transparent !important;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  
+  .page-link{
+    border-color: transparent;
+    color: #707070 !important;
+  }
+  
+  .page-item.active .page-link {
+    background-color: #33b9a5 !important;
+    border-radius: 6px;
+    border: none !important;
+  }
+}
