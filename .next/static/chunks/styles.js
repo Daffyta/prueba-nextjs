@@ -30,7 +30,7 @@ module.exports = {"hidden-mobile":"In3zoLDN6v-mEDh_titFR","hidden-desktop":"_3dU
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1581975466426");
+            injectCss(link, link.href.split("?")[0] + "?unix=1581984374546");
           });
       }
     }
@@ -67,7 +67,7 @@ module.exports = {"hidden-mobile":"In3zoLDN6v-mEDh_titFR","hidden-desktop":"_3dU
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1581977630003");
+            injectCss(link, link.href.split("?")[0] + "?unix=1581985111595");
           });
       }
     }

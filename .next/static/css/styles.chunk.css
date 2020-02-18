@@ -64,6 +64,9 @@ h5 {
     #sidebar .nav-item a {
       color: #fff;
       font-size: 18px; }
+    #sidebar .nav-item .active-tab {
+      margin-left: 5%;
+      text-decoration: none; }
 
 @media screen and (max-width: 1023px) {
   .hidden-mobile {

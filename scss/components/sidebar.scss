@@ -26,7 +26,12 @@
     
     a{
       color: #fff;
-      font-size: 18px;
+      font-size: 18px;    
+    }
+    
+    .active-tab {
+      margin-left: 5%;
+      text-decoration: none;
     }
   }
 }

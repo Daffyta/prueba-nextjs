@@ -1211,29 +1211,43 @@ var Sidebar = function Sidebar(props) {
       lineNumber: 14
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/",
-    as: "".concat(process.env.ASSET_PREFIX, "/"),
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: '/',
+    as: process.env.BACKEND_URL + '/',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }, "Dashboard")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+  }, __jsx("a", {
+    className: "active-tab",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Dashboard"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/Tabs",
-    as: "".concat(process.env.ASSET_PREFIX, "/Tabs"),
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: '/Tabs',
+    as: process.env.BACKEND_URL + '/Tabs',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "Tabs")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+  }, __jsx("a", {
+    className: "active-tab",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Tabs"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20

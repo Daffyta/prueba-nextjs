@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1355,29 +1355,43 @@ const Sidebar = props => {
       lineNumber: 14
     },
     __self: undefined
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/",
-    as: `${process.env.ASSET_PREFIX}/`,
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: '/',
+    as: process.env.BACKEND_URL + '/',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: undefined
-  }, "Dashboard")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+  }, __jsx("a", {
+    className: "active-tab",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: undefined
+  }, "Dashboard"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: undefined
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavLink"], {
-    href: "/Tabs",
-    as: `${process.env.ASSET_PREFIX}/Tabs`,
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: '/Tabs',
+    as: process.env.BACKEND_URL + '/Tabs',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: undefined
-  }, "Tabs")), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
+  }, __jsx("a", {
+    className: "active-tab",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, "Tabs"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -3319,6 +3333,7 @@ module.exports = {
 	"hidden-desktop": "_2JQtuFNQlIBp6UtBd13h1Q",
 	"sidebar": "_3YCBd5Qrca1Fy3DMyyyBEZ",
 	"nav-item": "_3Bqfi31UOxS47FfRifaPVO",
+	"active-tab": "RBHdNr82TTfyuNfyJDoT0",
 	"navbar": "_2Fe6x_QZNxLqtS3FId6MUF",
 	"navbar-brand": "_1N5gg9p9IxnPToIrWxRjhN",
 	"navbar-toggler": "_3ZuWCGe9jqsdJYf1XU2gLy",
@@ -4875,7 +4890,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
