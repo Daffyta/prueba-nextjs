@@ -4,6 +4,14 @@ module.exports = withSass({
   cssModules: true,
   cssLoaderOptions: {
     importLoaders: 2,
+    url: false
+  },
+  exportPathMap: function() {
+    const paths = {
+      '/': { page: '/' },
+      '/Tabs': { page: '/Tabs'},
+    };
+    return paths;
   },
  
   webpack: function (config) {
