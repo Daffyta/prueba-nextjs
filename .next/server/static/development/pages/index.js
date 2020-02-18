@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1104,8 +1104,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _Sidebar_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Sidebar.js */ "./components/Sidebar.js");
 var _jsxFileName = "/home/daffyta/Public/contadores/components/Navegation.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
+
 
 
 
@@ -1124,7 +1126,7 @@ const Navegation = props => {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Navbar"], {
@@ -1133,14 +1135,14 @@ const Navegation = props => {
     className: "navbar",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: undefined
   }, __jsx("div", {
     className: "d-flex align-items-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavbarBrand"], {
@@ -1148,33 +1150,33 @@ const Navegation = props => {
     className: "navbar-brand",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: undefined
   }, __jsx("h5", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: undefined
   }, "Dashboard")), __jsx("div", {
     className: "d-flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavLink"], {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: undefined
   }, __jsx("img", {
@@ -1183,20 +1185,20 @@ const Navegation = props => {
     width: "21px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
     },
     __self: undefined
   }))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavItem"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavLink"], {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: undefined
   }, __jsx("img", {
@@ -1205,14 +1207,14 @@ const Navegation = props => {
     width: "25px",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: undefined
   }))))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavbarToggler"], {
     onClick: toggle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: undefined
   }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Collapse"], {
@@ -1220,7 +1222,7 @@ const Navegation = props => {
     navbar: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["Nav"], {
@@ -1228,56 +1230,25 @@ const Navegation = props => {
     navbar: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: undefined
   }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["UncontrolledDropdown"], {
     nav: true,
     inNavbar: true,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: undefined
-  }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavItem"], {
+    className: "d-block d-sm-none",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/",
+  }, __jsx(_Sidebar_js__WEBPACK_IMPORTED_MODULE_6__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: undefined
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: undefined
-  }, "Dashboard"))), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_4__["NavItem"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: undefined
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    href: "/Tabs",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: undefined
-  }, __jsx("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: undefined
-  }, "Tabs"))))))));
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navegation);
@@ -3153,7 +3124,7 @@ const Dashboard = () => __jsx("div", {
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_7__["Col"], {
   md: "3",
-  className: "pad-left",
+  className: "pad-left d-none d-lg-block",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
@@ -4890,7 +4861,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

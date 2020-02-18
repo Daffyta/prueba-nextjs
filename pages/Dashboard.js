@@ -11,7 +11,7 @@ const Dashboard = () => (
   
   <div className="container-fluid">
     <Row>
-      <Col md="3" className="pad-left">
+      <Col md="3" className="pad-left d-none d-lg-block">
         <Sidebar />
       </Col>
       <Col md="9">

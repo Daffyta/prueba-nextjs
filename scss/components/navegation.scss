@@ -4,14 +4,14 @@
 
 @include mq-max(mobile-big) {
   .navbar {
-    padding: 9% 0 9% 5% !important;
+    padding: 9% 0 9% 3% !important;
     
     h5 {
       margin-bottom: 0%;
     }
     
     .navbar-brand {
-      margin-right: 2rem;
+      margin-right: 1rem;
     }
     
     .navbar-toggler {

@@ -19,6 +19,7 @@ import {
   NavbarText
 } from 'reactstrap';
 import Link from 'next/link';
+import Sidebar from './Sidebar.js'
 
 
 const Navegation = (props) => {
@@ -45,17 +46,8 @@ const Navegation = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <UncontrolledDropdown nav inNavbar>
-              <NavItem>
-                <Link href="/">
-                  <a>Dashboard</a>
-                </Link>
-              </NavItem>
-              <NavItem>
-                <Link href="/Tabs">
-                  <a>Tabs</a>
-                </Link>
-              </NavItem>
+            <UncontrolledDropdown nav inNavbar  className="d-block d-sm-none">
+              <Sidebar />
             </UncontrolledDropdown>
           </Nav>
         </Collapse>

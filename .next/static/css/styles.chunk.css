@@ -78,11 +78,11 @@ h5 {
 
 @media screen and (max-width: 767px) {
   .navbar {
-    padding: 9% 0 9% 5% !important; }
+    padding: 9% 0 9% 3% !important; }
     .navbar h5 {
       margin-bottom: 0%; }
     .navbar .navbar-brand {
-      margin-right: 2rem; }
+      margin-right: 1rem; }
     .navbar .navbar-toggler {
       border-color: transparent !important;
       margin-right: 2%; } }
@@ -7385,11 +7385,11 @@ body {
 
 @media screen and (max-width: 767px) {
   ._2XTlZHQert4iN0JFqJNUnH {
-    padding: 9% 0 9% 5% !important; }
+    padding: 9% 0 9% 3% !important; }
     ._2XTlZHQert4iN0JFqJNUnH h5 {
       margin-bottom: 0%; }
     ._2XTlZHQert4iN0JFqJNUnH ._36S2bsbZy_n7VfJOom2OTH {
-      margin-right: 2rem; }
+      margin-right: 1rem; }
     ._2XTlZHQert4iN0JFqJNUnH ._3GGv9hOl1DT20HvEsrr1Jy {
       border-color: transparent !important;
       margin-right: 2%; } }
